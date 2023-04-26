@@ -1,41 +1,41 @@
-# Análise exploratória e clusterização de dados de clientes
-Este notebook apresenta uma análise exploratória e uma clusterização de dados de clientes de uma empresa. O conjunto de dados foi obtido a partir do Kaggle, e contém informações sobre os clientes, como idade, gênero, estado civil, nível de renda, entre outras.
+# Exploratory analysis and clustering of customer data
+This notebook presents an exploratory analysis and clustering of a company's customer data. The dataset was obtained from Kaggle, and contains information about customers, such as age, gender, marital status, income level, among others.
 
-## Conjunto de dados
-O conjunto de dados é composto por 2000 linhas e 8 colunas. As colunas incluem:
+## Data set
+The dataset consists of 2000 rows and 8 columns. Columns include:
 
-Idade: idade do cliente
-Gênero: gênero do cliente (masculino ou feminino)
-Estado civil: estado civil do cliente (solteiro, casado ou divorciado)
-Nível de escolaridade: nível de escolaridade do cliente
-Nível de renda: nível de renda do cliente
-Número de filhos: número de filhos do cliente
-Região: região onde o cliente reside
-Gasto anual: o quanto o cliente gasta anualmente na empresa
+Age: customer age
+Gender: Customer's gender (male or female)
+Marital status: client's marital status (single, married or divorced)
+Level of education: level of education of the client
+Income Level: Customer's income level
+Number of children: number of children of the client
+Region: region where the customer resides
+Annual spend: how much the customer spends annually on the company
 
-## Análise exploratória
-A análise exploratória foi realizada para entender melhor as características dos clientes e identificar padrões e tendências nos dados. Algumas das perguntas que foram exploradas durante a análise incluem:
+## Exploratory analysis
+Exploratory analysis was performed to better understand customer characteristics and identify patterns and trends in the data. Some of the questions that were explored during the analysis include:
 
-- Quais são as características demográficas dos clientes?
-- Qual é a distribuição de gastos anuais dos clientes?
-- Existe alguma correlação entre as características dos clientes e o gasto anual?
+- What are the demographic characteristics of the customers?
+- What is the breakdown of annual customer spending?
+- Is there any correlation between customer characteristics and annual spend?
 
-## Preparação dos dados
-Antes de criar o modelo de clusterização, os dados foram pré-processados e preparados para o treinamento. Algumas das etapas de preparação de dados incluem:
+## Data preparation
+Before creating the clustering model, the data was pre-processed and prepared for training. Some of the data preparation steps include:
 
-- Limpeza de dados ausentes e valores atípicos
-- Codificação de recursos categóricos
-- Clusterização
-Para identificar possíveis grupos de clientes, foi utilizado o algoritmo K-means para realizar a clusterização. Foram utilizadas diversas técnicas para selecionar o número ótimo de clusters, como a análise de silhueta e o método do cotovelo.
+- Cleaning of missing data and outliers
+- Coding of categorical features
+- Clustering
+To identify possible groups of customers, the K-means algorithm was used to perform clustering. Several techniques were used to select the optimal number of clusters, such as silhouette analysis and the elbow method.
 
-Foram criados grupos de clientes com base nas suas características, como idade, gênero, estado civil, nível de renda e número de filhos. Cada grupo de clientes foi analisado e caracterizado com base nas suas principais características.
+Customer groups were created based on their characteristics, such as age, gender, marital status, income level and number of children. Each customer group was analyzed and characterized based on its main characteristics.
 
-## Conclusão
-Este notebook apresentou uma análise exploratória e uma clusterização de dados de clientes de uma empresa. A análise exploratória ajudou a entender melhor as características dos clientes e a identificar padrões e tendências nos dados. A clusterização permitiu identificar grupos de clientes com características semelhantes, o que pode ajudar a empresa a criar estratégias de marketing e vendas mais direcionadas para cada grupo.
+## Conclusion
+This notebook presented an exploratory analysis and clustering of a company's customer data. Exploratory analysis helped to better understand customer characteristics and identify patterns and trends in the data. Clustering made it possible to identify groups of customers with similar characteristics, which could help the company create more targeted marketing and sales strategies for each group.
 
-Embora o conjunto de dados seja relativamente pequeno, a análise e a clusterização foram bem-sucedidas em identificar possíveis grupos de clientes com base nas suas características. Este notebook pode ser útil para outras empresas que desejam realizar uma análise semelhante de seus próprios dados de clientes.
+Although the dataset is relatively small, the analysis and clustering were successful in identifying potential customer groups based on their characteristics. This notebook may be useful for other companies that want to perform a similar analysis of their own customer data.
 
-## Contribuição
+## Contribution
 
-Contribuições são bem-vindas! Se você encontrar algum bug ou tiver alguma sugestão de melhoria, abra um problema no repositório ou envie uma solicitação de pull.
-uma solicitação de pull.
+Contributions are welcome! If you find any bugs or have any suggestions for improvement, please open an issue in the repository or submit a pull request.
+a pull request.
