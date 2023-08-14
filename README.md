@@ -1,3 +1,6 @@
+##### Use https://nbviewer.org to upload the file in case of errors
+---
+
 # Exploratory analysis and clustering of customer data
 This notebook presents an exploratory analysis and clustering of a company's customer data. The dataset was obtained from Kaggle, and contains information about customers, such as age, gender, marital status, income level, among others.
 
